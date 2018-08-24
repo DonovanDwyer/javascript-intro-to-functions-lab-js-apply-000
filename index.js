@@ -19,5 +19,7 @@ function sayHiToGrandma(string) {
     return "YES INDEED!";
   } elseif (string === "hello!") {
     return "I can't hear you!";
-  } elseif ()
+  } elseif (string === "I love you, Grandma.") {
+    return "I love you, too."
+  }
 }
